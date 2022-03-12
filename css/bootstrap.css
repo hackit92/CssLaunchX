@@ -62,7 +62,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -6716,6 +6716,7 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+  flex-wrap: nowrap;
 }
 
 .d-inline-flex {
