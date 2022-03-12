@@ -230,7 +230,7 @@ line-height:1em;
 .contenedor{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: t;
 }
 
 .accord{
